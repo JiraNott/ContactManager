@@ -6,7 +6,7 @@ package com.manager.contact;
 public class Contact {
 
     private  String _name , _phone , _email , _address;
-
+    //test
     public Contact(String name , String phone , String email , String address){
         _name = name;
         _phone = phone;

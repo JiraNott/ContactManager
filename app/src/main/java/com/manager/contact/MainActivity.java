@@ -80,7 +80,7 @@ public class MainActivity extends ActionBarActivity {
         });
 
     }
-
+    //populate data
     private void populateList(){
         ArrayAdapter<Contact> adapter = new ContactListAdapter();
         contactListView.setAdapter(adapter);
@@ -118,7 +118,7 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-
+    //some changes
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
